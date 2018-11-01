@@ -1,0 +1,44 @@
+.a11yc,
+.a11yc_sansserif
+{
+	max-width: initial;
+}
+#a11yc_validation_not_found_error .a11yc_icon_fa + p
+{
+	display: inline-block;
+}
+.a11yc_errs_cnt
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#a11yc_validation_errors dd,
+#a11yc_validation_notices dd,
+#a11yc_validation_code dd
+{
+	padding: 0;
+}
+#a11yc_validation_errors dd ul,
+#a11yc_validation_notices dd ul,
+#a11yc_validation_code dd ul
+{
+	padding-left: 0;
+}
+#a11yc_validation_errors dd ul li,
+#a11yc_validation_notices dd ul li,
+#a11yc_validation_code dd ul li
+{
+	padding-left: 13px;
+	background-position: 2px;
+	margin: 0;
+}
+#a11yc_validation_errors dd ul li:after,
+#a11yc_validation_notices dd ul li:after,
+#a11yc_validation_code dd ul li:after
+{
+	width: 100%;
+	margin-left: 0;
+}
