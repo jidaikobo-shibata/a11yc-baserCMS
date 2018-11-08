@@ -6,7 +6,7 @@
  */
 
 // base url
-//defined at other file
+define('A11YC_URL', (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"]);
 
 // language
 // en, ja
